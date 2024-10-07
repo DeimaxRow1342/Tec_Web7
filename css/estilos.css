@@ -8,7 +8,7 @@ p {
 
 div {
     background-color: hsl(60, 1, 1);
-}*/
+}
 
 .caja1{
     width: 150px;
@@ -26,4 +26,32 @@ div {
     width: 50px;
     height: 50px;
     background-color: hsl(137, 85%, 16%);
+} */
+
+/**{
+    color:orange;
+}*/
+
+/*div{
+   color: green; 
+}*/
+
+.caja1{
+    color: red;
+}
+
+#foo{
+    color: orange;
+}
+
+a[title]{
+    color:green;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+input:disabled{
+    border: 2px solid orange;
 }
