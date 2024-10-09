@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Document</title>
+    <style>
+        .hijo1 ~ div{
+            color:violet;
+        }
+        .foo{
+            color:green;
+        }
+        #bar{
+            color:red;
+        }*/
+        #outer a{
+            background-color: red;
+        }
+        #outer #inner a{
+            background-color: blue;
+        }
+
+
+
+    </style>
     
 </head>
 <body>
@@ -23,5 +43,30 @@
         <br>
         <input type="text" type="password" id="password">
     </form>
+    <div id="outer">
+        <div id="inner">
+            <a href="">HOLA MUNDO</a>
+        </div>
+    </div>
+
+    <p class="foo bar" id="bar">HOLA</p>
+
+
+    <div class="abuelo">
+        <div class="hijo1">Soy el hijo 1</div>
+        <div class="hijo">Soy el hijo 2</div>
+        <p>Soy el hijo 4</p>
+        <div class="hijo">Soy el hijo 3</div>
+    </div>
+    
+    <p class="foo">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat praesentium aperiam, nemo corrupti amet veritatis. Eaque, nobis. Magni minima, harum magnam repudiandae architecto natus, deleniti molestiae dicta accusamus ipsam recusandae?
+    </p>
+    <div class="bar">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique, ratione velit consectetur inventore impedit dolores cumque architecto sequi ipsum sunt asperiores dicta beatae esse aut, quasi laudantium accusantium nostrum.
+    </div>
+    <div class="baz">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique, ratione velit consectetur inventore impedit dolores cumque architecto sequi ipsum sunt asperiores dicta beatae esse aut, quasi laudantium accusantium nostrum.
+    </div>
 </body>
 </html>
